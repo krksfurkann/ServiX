@@ -1,0 +1,10 @@
+<Project>
+  <!-- Shared build settings for every project under backend/ -->
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- "Done" means zero warnings: fail the build on any warning -->
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+</Project>
