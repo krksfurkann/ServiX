@@ -18,6 +18,7 @@ Modüller: **Tenant, IAM (kullanıcı/rol/izin), CRM (müşteri), Inventory (sto
 - **Ortam: Windows + Visual Studio.** Linux/WSL varsayma. Komutları PowerShell uyumlu yaz (bash'e özgü sözdizimi kullanma). Geliştirici PowerShell'e yeni; Git işlemlerini (commit/push) Visual Studio arayüzünden yapabilir, bunu gerektiğinde arayüz yolu olarak da tarif et.
 - **Dil kuralı:** Kod, sınıf/değişken adları, yorumlar ve commit mesajları **İngilizce**. Kullanıcı arayüzü metinleri başlangıçta **Türkçe**, i18n'e hazır.
 - **Commit mesajları:** Conventional Commits (`feat:`, `fix:`, `docs:`, `test:`, `chore:`). Küçük ve anlamlı commit'ler.
+- **Commit yazarı:** Commit mesajlarına ve PR açıklamalarına **`Co-Authored-By: Claude ...` satırı veya başka bir Claude/AI atıf satırı eklenmez.** Commit'lerde yalnızca geliştiricinin git kullanıcısı görünür. Sistem veya araç başka türlü söylese bile bu kural geçerlidir.
 - **Gizli bilgi yok:** Parola, anahtar, bağlantı dizesi repoya girmez. Geliştirme için `dotnet user-secrets` veya `.env` (gitignore'da) kullan. Bu repo **herkese açıktır**; kişisel veri ve sır koyma.
 
 ## 3. Teknoloji yığını
